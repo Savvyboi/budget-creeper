@@ -1,0 +1,29 @@
+{
+  "name": "valtion-budjetti",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Interactive explorer for the Finnish state budget, built on Valtiokonttori's open Valtiontalous API.",
+  "engines": { "node": ">=18.13" },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:ci": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "data": "node scripts/fetch-data.mjs",
+    "data:refresh": "node scripts/fetch-data.mjs --refresh-latest",
+    "data:all": "node scripts/fetch-data.mjs --years 1998-2026"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

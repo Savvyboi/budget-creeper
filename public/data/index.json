@@ -1,0 +1,348 @@
+{
+  "generatedAt": "2026-08-30T19:47:49.678Z",
+  "source": {
+    "name": "Valtiokonttori — Tutkihallintoa.fi, avoin rajapinta \"Valtion talous\" v1",
+    "dataset": "Budjettitalouden tapahtumat",
+    "endpoint": "https://api.tutkihallintoa.fi/valtiontalous/v1/budjettitaloudentapahtumat",
+    "docs": "https://avoindata.tutkihallintoa.fi/api-details#api=valtiontalous&operation=BudjettitaloudenTapahtumat",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/deed.fi",
+    "homepage": "https://www.tutkihallintoa.fi/"
+  },
+  "population": {
+    "note": "Population of Finland at 31 December, used only for the optional 'per resident' figures. Rounded to the nearest thousand. Update once a year from Statistics Finland (StatFin table 11ra 'Key figures on population by region').",
+    "source": "https://stat.fi/tilasto/vaerak",
+    "projected": [
+      2025,
+      2026
+    ]
+  },
+  "years": [
+    {
+      "year": 2026,
+      "monthsAvailable": 7,
+      "complete": false,
+      "population": 5680000,
+      "populationProjected": true,
+      "expenditure": {
+        "b0": 90817654000,
+        "b": 91697867000,
+        "a": 56332039111.27
+      },
+      "revenue": {
+        "b0": 81386880000,
+        "b": 80566366000,
+        "a": 48767572143.51
+      },
+      "borrowing": {
+        "b0": 9442961000,
+        "b": 11131501000,
+        "a": 11077703346.26
+      },
+      "balance": {
+        "b": -11131501000,
+        "a": -7564466967.76
+      },
+      "mainClasses": 19
+    },
+    {
+      "year": 2025,
+      "monthsAvailable": 12,
+      "complete": true,
+      "population": 5660000,
+      "populationProjected": true,
+      "expenditure": {
+        "b0": 89203683000,
+        "b": 90245873000,
+        "a": 89395809685.29
+      },
+      "revenue": {
+        "b0": 76635824000,
+        "b": 76916609000,
+        "a": 76343382894.78
+      },
+      "borrowing": {
+        "b0": 12577207000,
+        "b": 13329264000,
+        "a": 16690789019.27
+      },
+      "balance": {
+        "b": -13329264000,
+        "a": -13052426790.51
+      },
+      "mainClasses": 19
+    },
+    {
+      "year": 2024,
+      "monthsAvailable": 12,
+      "complete": true,
+      "population": 5636000,
+      "populationProjected": false,
+      "expenditure": {
+        "b0": 87867388000,
+        "b": 87555492000,
+        "a": 86763948885.11
+      },
+      "revenue": {
+        "b0": 76286370000,
+        "b": 75694691000,
+        "a": 74343737360.53
+      },
+      "borrowing": {
+        "b0": 11581018000,
+        "b": 11860801000,
+        "a": 12362235273.63
+      },
+      "balance": {
+        "b": -11860801000,
+        "a": -12420211524.58
+      },
+      "mainClasses": 19
+    },
+    {
+      "year": 2023,
+      "monthsAvailable": 12,
+      "complete": true,
+      "population": 5604000,
+      "populationProjected": false,
+      "expenditure": {
+        "b0": 81340384000,
+        "b": 83244412000,
+        "a": 91893358305.65
+      },
+      "revenue": {
+        "b0": 72898711000,
+        "b": 72924142000,
+        "a": 82629205634.55
+      },
+      "borrowing": {
+        "b0": 8441673000,
+        "b": 10320270000,
+        "a": 12989398097.45
+      },
+      "balance": {
+        "b": -10320270000,
+        "a": -9264152671.1
+      },
+      "mainClasses": 19
+    },
+    {
+      "year": 2022,
+      "monthsAvailable": 12,
+      "complete": true,
+      "population": 5564000,
+      "populationProjected": false,
+      "expenditure": {
+        "b0": 64946437000,
+        "b": 77909756000,
+        "a": 66996141246.98
+      },
+      "revenue": {
+        "b0": 57757676000,
+        "b": 59117008000,
+        "a": 60028446409.12
+      },
+      "borrowing": {
+        "b0": 7188761000,
+        "b": 18792748000,
+        "a": 11542522111.68
+      },
+      "balance": {
+        "b": -18792748000,
+        "a": -6967694837.86
+      },
+      "mainClasses": 19
+    },
+    {
+      "year": 2021,
+      "monthsAvailable": 12,
+      "complete": true,
+      "population": 5548000,
+      "populationProjected": false,
+      "expenditure": {
+        "b0": 65245253000,
+        "b": 67838889000,
+        "a": 63597629822.52
+      },
+      "revenue": {
+        "b0": 53359389000,
+        "b": 55503604000,
+        "a": 56283833132.02
+      },
+      "borrowing": {
+        "b0": 11885864000,
+        "b": 12335285000,
+        "a": 4464550410.87
+      },
+      "balance": {
+        "b": -12335285000,
+        "a": -7313796690.5
+      },
+      "mainClasses": 19
+    },
+    {
+      "year": 2020,
+      "monthsAvailable": 12,
+      "complete": true,
+      "population": 5534000,
+      "populationProjected": false,
+      "expenditure": {
+        "b0": 57691447000,
+        "b": 68749697000,
+        "a": 63520325669.83
+      },
+      "revenue": {
+        "b0": 55395045000,
+        "b": 49001157000,
+        "a": 49527827656.41
+      },
+      "borrowing": {
+        "b0": 2296402000,
+        "b": 19748540000,
+        "a": 19062737096.58
+      },
+      "balance": {
+        "b": -19748540000,
+        "a": -13992498013.42
+      },
+      "mainClasses": 19
+    },
+    {
+      "year": 2019,
+      "monthsAvailable": 12,
+      "complete": true,
+      "population": 5525000,
+      "populationProjected": false,
+      "expenditure": {
+        "b0": 55495469000,
+        "b": 56069692000,
+        "a": 55413472576.76
+      },
+      "revenue": {
+        "b0": 53775331000,
+        "b": 53600131000,
+        "a": 53158731944.88
+      },
+      "borrowing": {
+        "b0": 1720138000,
+        "b": 2469561000,
+        "a": 1900476900.06
+      },
+      "balance": {
+        "b": -2469561000,
+        "a": -2254740631.88
+      },
+      "mainClasses": 19
+    },
+    {
+      "year": 2018,
+      "monthsAvailable": 12,
+      "complete": true,
+      "population": 5518000,
+      "populationProjected": false,
+      "expenditure": {
+        "b0": 55813849000,
+        "b": 56192283000,
+        "a": 54768875113.9
+      },
+      "revenue": {
+        "b0": 52320699000,
+        "b": 53008138000,
+        "a": 53123601653.65
+      },
+      "borrowing": {
+        "b0": 3493150000,
+        "b": 3184145000,
+        "a": 774967214.15
+      },
+      "balance": {
+        "b": -3184145000,
+        "a": -1645273460.25
+      },
+      "mainClasses": 19
+    },
+    {
+      "year": 2017,
+      "monthsAvailable": 12,
+      "complete": true,
+      "population": 5513000,
+      "populationProjected": false,
+      "expenditure": {
+        "b0": 55491904000,
+        "b": 55923278000,
+        "a": 54381405663.57
+      },
+      "revenue": {
+        "b0": 49446516000,
+        "b": 50977771000,
+        "a": 50775438986.73
+      },
+      "borrowing": {
+        "b0": 6045388000,
+        "b": 4945507000,
+        "a": 3649478327.23
+      },
+      "balance": {
+        "b": -4945507000,
+        "a": -3605966676.84
+      },
+      "mainClasses": 19
+    },
+    {
+      "year": 2016,
+      "monthsAvailable": 12,
+      "complete": true,
+      "population": 5503000,
+      "populationProjected": false,
+      "expenditure": {
+        "b0": 54390981000,
+        "b": 55041643000,
+        "a": 53906769003.92
+      },
+      "revenue": {
+        "b0": 48592679000,
+        "b": 48614612000,
+        "a": 49040140106.72
+      },
+      "borrowing": {
+        "b0": 5798302000,
+        "b": 6427031000,
+        "a": 2971460814.25
+      },
+      "balance": {
+        "b": -6427031000,
+        "a": -4866628897.2
+      },
+      "mainClasses": 19
+    },
+    {
+      "year": 2015,
+      "monthsAvailable": 12,
+      "complete": true,
+      "population": 5487000,
+      "populationProjected": false,
+      "expenditure": {
+        "b0": 53864078000,
+        "b": 54386676000,
+        "a": 54375117333
+      },
+      "revenue": {
+        "b0": 48728739000,
+        "b": 48627314000,
+        "a": 48449776454.48
+      },
+      "borrowing": {
+        "b0": 5135339000,
+        "b": 5759362000,
+        "a": 4927236149.51
+      },
+      "balance": {
+        "b": -5759362000,
+        "a": -5925340878.52
+      },
+      "mainClasses": 19
+    }
+  ],
+  "latestYear": 2026,
+  "latestCompleteYear": 2025
+}

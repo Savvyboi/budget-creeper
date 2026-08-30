@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Valtion budjetti — mihin Suomen valtion rahat menevät?</title>
+    <meta
+      name="description"
+      content="Selaa Suomen valtion talousarviota ja sen toteutumaa vuosittain. Avointa dataa Valtiokonttorin Tutkihallintoa-rajapinnasta."
+    />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#f7f7f5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#12151a" media="(prefers-color-scheme: dark)" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Valtion budjetti" />
+    <meta
+      property="og:description"
+      content="Mihin Suomen valtion rahat menevät? Selaa talousarviota ja toteutumaa pääluokittain, hallinnonaloittain ja menolajeittain."
+    />
+    <meta property="og:image" content="og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!--
+      No render-blocking webfont: the UI uses the system stack so first paint is
+      immediate, which matters on the mobile connections most people arrive on.
+    -->
+    <!-- Applies the stored theme before first paint. An external file, not an
+         inline script, because the shipped CSP uses script-src 'self'. -->
+    <script src="/boot-theme.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <div class="boot" role="status" aria-live="polite">
+        <div class="boot__bar"><span></span></div>
+        <p>Ladataan budjettitietoja…</p>
+      </div>
+    </div>
+    <noscript>
+      <div style="max-width: 40rem; margin: 4rem auto; padding: 0 1.5rem; font: 1rem/1.6 system-ui, sans-serif">
+        <h1>Valtion budjetti</h1>
+        <p>
+          Tämä palvelu tarvitsee JavaScriptin toimiakseen. Aineisto on saatavilla
+          myös suoraan Valtiokonttorin avoimesta rajapinnasta:
+          <a href="https://avoindata.tutkihallintoa.fi/api-details#api=valtiontalous"
+            >avoindata.tutkihallintoa.fi</a
+          >.
+        </p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

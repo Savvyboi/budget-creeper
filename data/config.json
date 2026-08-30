@@ -1,0 +1,11 @@
+{
+  "_comment": "Which budget years the site ships with. `npm run data` reads this. Widen the range for a full 1998- archive; the API has data from 1998 onwards.",
+  "years": { "from": 2015, "to": 2026 },
+  "mainClassCandidates": [
+    "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+    "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+    "31", "32", "33", "34", "35", "36", "37", "38", "39"
+  ],
+  "revenueBelowCode": 21,
+  "concurrency": 3
+}

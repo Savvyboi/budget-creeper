@@ -1,0 +1,15 @@
+{
+  "name": "Valtion budjetti",
+  "short_name": "Budjetti",
+  "description": "Suomen valtion talousarvio ja sen toteutuma avoimesta datasta.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f7f5",
+  "theme_color": "#1b4fa0",
+  "lang": "fi",
+  "icons": [
+    { "src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "./apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

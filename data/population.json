@@ -1,0 +1,15 @@
+{
+  "_comment": "Population of Finland at 31 December, used only for the optional 'per resident' figures. Rounded to the nearest thousand. Update once a year from Statistics Finland (StatFin table 11ra 'Key figures on population by region').",
+  "_source": "https://stat.fi/tilasto/vaerak",
+  "_projected": [2025, 2026],
+  "values": {
+    "1998": 5160000, "1999": 5171000, "2000": 5181000, "2001": 5195000,
+    "2002": 5206000, "2003": 5220000, "2004": 5237000, "2005": 5256000,
+    "2006": 5277000, "2007": 5300000, "2008": 5326000, "2009": 5351000,
+    "2010": 5375000, "2011": 5401000, "2012": 5427000, "2013": 5451000,
+    "2014": 5472000, "2015": 5487000, "2016": 5503000, "2017": 5513000,
+    "2018": 5518000, "2019": 5525000, "2020": 5534000, "2021": 5548000,
+    "2022": 5564000, "2023": 5604000, "2024": 5636000, "2025": 5660000,
+    "2026": 5680000
+  }
+}
